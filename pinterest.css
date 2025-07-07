@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width:5%;
+    height: 100%;
+    position: fixed;
+}
+.logo{
+    align-items: center;
+    margin-left:12px;
+    margin-right: 12px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height:80%;
+
+}
+.settings{
+    margin-left:24px;
+    margin-right: 12px;
+    margin-bottom: 35px;
+    height:20%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    height: 100%;
+    background-color: white;
+    margin-left: 5%;   
+}
+.search{
+    display: flex;
+
+    height:7.5%;
+    width: 100%;
+    position:fixed;
+    background-color : white;
+    
+}
+        .search-bar{
+            border: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+            background-color: rgb(236, 229, 229);
+            margin-left: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 1300px;
+            height: 35px;
+            font-size: 16px;
+            font-weight:normal;
+            color: #333;
+            outline: none;
+            padding: 0%;
+            
+        }
+        .profile{
+            width:50px;
+            height:50px;
+            margin-top: 17px;
+            margin-left: 30px;
+
+        }
+
+
+.content{
+
+    display: flex;
+    width: 100%;
+    height: 93%;
+    background-color: white;
+    margin-top: 4%;
+
+
+}
+
+        .row1{
+            background-color: white;
+            height: 100%;
+            width:calc(100% / 6);
+            margin: 10px;
+            border-radius: 20px;
+
+
+        }
+        .row2{
+            background-color: white;
+            height: 100%;
+            width:calc(100% / 6);               
+            margin: 10px;
+            border-radius: 20px;
+        }
+        .row3{
+            background-color: white;
+            height:100%;
+            width:calc(100% / 6);
+            margin: 10px;
+            border-radius: 20px;
+    
+        }
+        .row4{
+            background-color: white;
+            height:100%;
+            width:calc(100% / 6);
+            margin: 10px;
+            border-radius: 20px;
+            
+        }
+        .row5{
+            background-color: white;
+            height:100%;
+            width:calc(100% / 6);
+            margin: 10px;
+            border-radius: 20px;
+            
+        }
+        .row6{
+            background-color: white;
+            height: 100%;
+            width:calc(100% / 6);
+            margin: 10px;
+            border-radius: 20px;           
+        }  
+
+
+.image{
+    height:70%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    gap: 20px;
+
+}
+
+.question{
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    bottom: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    position: fixed;
+    border-radius: 20px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
